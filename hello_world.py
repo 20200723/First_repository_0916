@@ -1,14 +1,12 @@
 def print_hello():
     print("Hello World!!")
-
 def print_KIT():
     print("Kumoh National Institute of Technology")
-
-def print_Git():
-    print("github")
+def add(x,y):
+    a=x+y
+    return a
 if __name__ == '__main__':
     print_hello()
     print_KIT()
-    print_Git()
-
+    print(add("happy","Christmas"))
     
